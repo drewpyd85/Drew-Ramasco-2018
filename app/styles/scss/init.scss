@@ -2,10 +2,12 @@
 @import 'config/_settings';
 @import 'config/_mixins';
 
-//frameworks
-
 //global things
 @import 'general/_reset';
 @import 'layout/_main';
 
+//frameworks
+@import 'frameworks/_skeleton';
+
 //pages
+@import 'pages/_hero';
