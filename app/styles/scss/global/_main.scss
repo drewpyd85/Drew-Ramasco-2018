@@ -1,7 +1,24 @@
+//FLEX GROW UTILITY
+.f-grow-1 {
+    flex: 1;
+}
+
+.f-grow-2 {
+    flex: 2;
+}
+
+.f-grow-3 {
+    flex: 3;
+}
+
+.f-grow-4 {
+    flex: 4;
+}
+
 .custom-hr {
     display: inline-block;
     width: 100px;
     height: auto;
-    border: 3px solid #17A2B8;
+    border: 3px solid $drew-blue;
     margin-left: 0;
 }
