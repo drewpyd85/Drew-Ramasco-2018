@@ -15,10 +15,22 @@
     flex: 4;
 }
 
-.custom-hr {
+.custom-hr-dark {
     display: inline-block;
     width: 100px;
     height: auto;
     border: 3px solid $drew-blue;
     margin-left: 0;
+}
+
+.custom-hr-light {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    border: 3px solid $drew-white;
+    margin-left: 0;
+}
+
+.page-wrap {
+    position: relative;
 }

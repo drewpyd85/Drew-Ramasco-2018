@@ -1,0 +1,31 @@
+.about-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: $drew-blue;
+    color: #fff;
+}
+
+.particle-row {
+    background-color: $drew-blue;
+    border-radius: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 992px) {
+    #particles-js {
+        display: none;
+    }
+}
