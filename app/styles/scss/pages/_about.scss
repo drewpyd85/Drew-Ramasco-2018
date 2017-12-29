@@ -1,6 +1,6 @@
 .about-section {
     position: relative;
-    height: 100vh;
+    min-height: 70vh;
     width: 100%;
     background-color: $drew-blue;
     color: #fff;
@@ -22,6 +22,12 @@
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.profile-pic {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 992px) {

@@ -21194,11 +21194,10 @@ References:
 		}
 	};
 })(this);
-$(document).ready(function(){
-    
-    var $win = $(window);
-    var winH = $win.height();
-	
+var $win = $(window);
+var winH = $win.height();
+
+$(document).ready(function(){	
 	$(function () {
 		$(window).scroll(function () {
 			if ($(this).scrollTop() > winH) {
