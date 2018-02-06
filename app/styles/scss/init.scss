@@ -1,8 +1,5 @@
 //frameworks
-@import 'frameworks/_bootstrap-reboot';
-@import 'frameworks/_bootstrap';
-@import 'frameworks/_bootstrap-grid';
-@import 'frameworks/_particles';
+@import 'frameworks/_normalize';
 
 //variables and settings
 @import 'variables/_settings';
@@ -12,6 +9,4 @@
 @import 'global/_main';
 
 //pages
-@import 'pages/_hero';
-@import 'pages/_about';
-@import 'pages/_knowledge';
+@import 'page_sections/_home';

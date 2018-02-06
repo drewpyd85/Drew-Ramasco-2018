@@ -1,0 +1,22 @@
+.main-wrapper {
+    // background-image: url('/images/drew_ramasco_hero_bg.jpg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center center;
+    background-color: $drew-blue;
+    color: $drew-white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    img {
+        max-height: 300px;
+        width: auto;
+        border-radius: 50%;
+    }
+}
